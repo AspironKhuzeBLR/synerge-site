@@ -38,13 +38,13 @@
 .mainblog{
     width: 80%;
     height: 50%;
-flex-direction: column;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.mainblog>span{
+.mainblog>div>span{
     font-size: 52px;
     font-weight: bold;
 
