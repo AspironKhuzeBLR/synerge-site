@@ -211,9 +211,7 @@
       </div>
     </header>
     
-    <span style="position: fixed; bottom: 10px; right: 10px; z-index: 99999;">
-      UAT site 2.3v
-    </span>
+
     <section id="fh5co-home" data-section="home">
       <!-- <div class="fullBackground"></div> -->
       <ul class="cb-slideshow">
@@ -1009,5 +1007,20 @@
       </div>
     </div>
     <script src="js/forhref.js"></script>
+    <script>
+      // Check if the hostname matches 'uat.sitename.com'
+      if (window.location.hostname == 'uat.synergeworkspace.com') {
+        // Create a span element
+        const span = document.createElement('span');
+        span.style.position = 'fixed';
+        span.style.bottom = '10px';
+        span.style.right = '10px';
+        span.style.zIndex = '99999';
+        span.textContent = 'UAT site 2.3v';
+  
+        // Append the span to the body
+        document.body.appendChild(span);
+      }
+    </script>
   </body>
 </html>
