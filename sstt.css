@@ -1,0 +1,262 @@
+
+*{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+
+.width-50 {
+
+width: 95%
+
+
+}
+
+
+.makingFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(57,196,180,1) 0%, rgba(75,92,93,1) 49%, rgba(255,0,10,1) 100%);
+
+
+
+}
+
+
+.width-60{
+  display: none;
+}
+
+#dyno{
+  width: 100%;
+    display: flex ;
+    flex-direction: column;
+    height: 144rem ;
+  
+}
+
+
+
+
+.mainanimationcenter{
+height: 3px ;
+width: 100%;
+display: flex;
+background-color: red;
+
+
+}
+
+
+.mainflez{
+    display: flex;
+   
+    width: 100%;
+
+     height: 520px;
+
+     justify-content: space-evenly;
+     align-items: center;
+
+}   
+
+.mainflez>span{
+width: 30%;
+height: 80%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+.mainflez>span>img{
+width: 90%;
+height: 90%;
+
+
+}
+
+
+.mainflez>img:hover{
+transition: all 0.4s ease-in-out;
+scale: 1.1;
+
+
+
+}
+
+
+
+.blo{
+
+
+    height: 76rem !important;
+    flex-direction: column !important; 
+    justify-content: end !important;
+    display: flex !important;
+ background-image: url("/jaynaDesk.png") !important;
+ background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+    align-items: center !important;
+
+}
+
+
+.hsr11{
+
+  height: 76rem !important;
+  flex-direction: column !important; 
+  justify-content: end !important;
+  display: flex !important;
+background-image: url("/mainHsr.png") !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+  align-items: center !important;
+}
+
+
+.hsr12{
+  margin-bottom: 100px;
+  
+  flex-direction: column !important; 
+  justify-content: end !important;
+  display: flex !important;
+background-image: url("/hsrmobver.png") !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+  align-items: center !important;
+  display: none !important;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+.fullwidth{
+
+width:100rem !important;
+
+
+}
+
+.hennur{
+    height: 63rem;
+      flex-direction: column; 
+      display: flex !important;
+      justify-content:flex-end;
+      align-items: center;
+}
+
+
+
+.hennur1{
+    display: none !important;
+    padding-top: 29px;
+}
+
+
+.olb{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    height: 86rem !important;
+    flex-direction: column !important; 
+    justify-content: end !important;
+    display: flex !important;
+ background-image: url("/jaymobilver.png") !important;
+ background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+    align-items: center !important;
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .blo{
+    display: none !important;
+  }
+  .hsr11{
+    display: none !important;
+  }
+  .hsr12{
+    display: flex !important;
+        margin-top: 100px;
+        height: 85rem !important;
+  }
+  .olb{
+    display: flex !important;
+  }
+.hennur{
+    display: none !important; 
+}
+.width-50 {
+
+    width: 94%;
+    
+    
+    
+  }
+
+  .width-50{
+    display: none !important;
+  }
+
+  .width-60{
+    display: block;
+    width:100%;
+  }
+
+
+.hennur1{
+    display: flex 
+    !important;
+}
+
+.mainflez{
+  padding-top: 50px;
+  height: 70%;
+  flex-direction: column;
+
+}  
+
+
+.mainflez>span {
+  width: 100%;
+  height: 24%;
+}
+
+.mainfelz>span>img{
+  width: 100%;
+  height: 90%;
+}
+
+
+.makingFlex{
+  height:30%
+}
+
+
+
+#dyno{
+  height:300rem !important
+}
+  }
